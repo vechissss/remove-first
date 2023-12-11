@@ -1,1 +1,9 @@
 acc.log
+#忽略所有 .sh 后缀的文件
+*.sh
+#除了 a.sh不要忽略
+!a.sh
+# 忽略当前目录下的 xx.txt文件， 但不忽略 cc/xx.txt文件
+/xx.txt
+# 忽略doc/xx.txt文件，但不忽略doc/server/xx.txt文件
+doc/xx.txt
